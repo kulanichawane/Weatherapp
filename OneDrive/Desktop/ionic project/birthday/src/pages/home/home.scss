@@ -1,0 +1,59 @@
+page-home {
+
+    ion-content{
+
+        background-image: url(../../assets/imgs/birthday-wishes-hd-images-8.jpg);
+        background-position: center;
+        background-size: cover;
+    
+    }
+
+
+    .happy{
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:red;
+        font-size: 50px;
+        letter-spacing: 5px;
+
+       
+    }
+    .birthday{
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(0, 174, 255);
+        font-size: 50px;
+        letter-spacing: 0px;
+        
+    }
+
+    .sub{
+
+        color: aliceblue;
+        letter-spacing: 5px;
+    }
+
+    .head{
+
+
+        height: 200px;
+        width: 350px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.212);
+        margin-left: 10px;
+        margin-top: 150px;
+        border-radius: 5%;
+        margin: auto;
+    }
+
+    .ballons{
+
+        margin-left: 10px;
+        margin-top: -225px;
+      
+    }
+
+    .g{
+        letter-spacing: 5px;
+    }
+}
