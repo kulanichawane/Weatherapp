@@ -1,0 +1,7 @@
+{
+  "name": "scoreboard",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

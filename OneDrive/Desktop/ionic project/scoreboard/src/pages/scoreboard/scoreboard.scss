@@ -1,0 +1,106 @@
+page-scoreboard {
+
+    .bg-img{
+
+background-image: url(../../assets/imgs/stadium_1_by_lavista_designer-d8juhaa.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+
+    .box1{
+        background: rgba(0, 0, 0, 0.596);
+        width: 50%;
+        margin: 0 auto;
+       
+    }
+    .box2{
+        background: rgba(8, 31, 16, 0.836);
+        width: 50%;
+        margin: 0;
+    }
+
+    .container{
+
+        display: -webkit-flex;
+        
+        height: 150px;
+       
+       
+        // flex-wrap:wrap-reverse;
+
+        // position: center;
+
+        margin: auto 0;
+        // margin-left: 0px;
+        // align-self: auto;
+
+    }
+
+    .box1:hover{
+        color: white;
+      
+      
+    }
+    .box2:hover{
+        color: white;
+      
+    }
+
+    .btn{
+    margin: 0;
+    display: block;;
+    }
+    .btn1{
+        width:100%;
+       
+        
+    }
+    .btn2{  
+        width:25%;
+        
+    }
+    .score1{
+
+        width: 50px;
+        height: 50px;
+       
+        
+       
+    }
+    .score2{
+
+        width: 50px;
+        height: 50px;
+       
+      
+    }
+    .input1{
+
+        width: 140px;
+        color: black;
+        font-size: 20px;
+        opacity: 0.8;
+        border: 0;
+    }
+    .input2{
+
+        width: 60px;
+        height: 60px;
+        color: black;
+        text-align: center;
+        opacity: 0.8;
+        font-size: 30px;
+        border: 0;
+    }
+
+    .l{
+        widows: 100%;
+    }
+
+    .n{
+margin:  auto;
+        margin-left: 150px;
+        margin-top: -30px;
+    }
+}

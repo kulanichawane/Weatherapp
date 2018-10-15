@@ -1,0 +1,58 @@
+<!--
+  Generated template for the ScoreboardPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>scoreboard</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg-img">
+
+  <div class="container" align="center" block>
+    <div class="box1" (click)="choose(1)">
+    <div>
+        <h2 (click)="choose(1)">H</h2>
+        <input type="text" value="{{homet}}" class="input1">
+
+      </div>
+      <br>
+      <div class="score1">
+        <input type="text" class="input2" value="{{home}}">
+      </div>
+
+    </div>
+
+
+    <div class="box2" (click)="choose(2)">
+      <div>
+        <h2 (click)="choose(2)">A</h2>
+        <input type="text" class="input1" value="{{awayt}}" class="input1">
+
+      </div>
+      <br>
+      <div class="score2">
+        <input align="center" type="text" class="input2" value="{{away}}">
+
+   
+      </div><br>
+
+    </div>
+
+
+  </div>
+<div align="center" padding>
+  <button ion-button large color="dark" (click)="addtry(score)" style="width:50%">Try 5</button><button large  color="dark" ion-button style="width:10%" (click)="trysub()"><ion-icon  name="return-left"></ion-icon></button>
+  <button ion-button  large   color="dark" (click)="addpenalty(score)" style="width:50%">Penalty 3</button><button ion-button large  color="dark" style="width:10%"  (click)="penaltysub()"><ion-icon name="return-left"></ion-icon> </button>
+  <button ion-button  large  color="dark"  (click)="addconv(score)" style="width:50%">Conversion 2</button><button ion-button  large  color="dark" style="width:10%" (click)="convsub()"><ion-icon  name="return-left"></ion-icon></button>
+  <button ion-button  large color="dark" (click)="rest()" style="width:61%">Rest</button>
+  
+</div>
+ 
+</ion-content>

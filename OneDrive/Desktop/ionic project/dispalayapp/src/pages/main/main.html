@@ -1,0 +1,78 @@
+<!--
+  Generated template for the MainPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>{{name}} {{surname}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="bg">
+  
+  <ion-card class="ion-card ">
+      <img src="../../assets/imgs/website-design-essex.jpg" alt="">
+    <ion-card-content>
+      <ion-card-title align="center">
+        About US
+      </ion-card-title>
+      <p class="u">
+        When our youth are empowered with the right skills to innovate and create solutions, they unlock the opportunities for new
+        businesses that will drive our economies forward. This is why we support these young innovators, founders, next generation
+        coders and digital creatives.
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card class="ion-card ">
+      <img src="../../assets/imgs/TS97_Oct2011_mLab_thumb-5.jpg" />
+      <ion-card-content>
+        <ion-card-title align="center">
+          Contact US
+        </ion-card-title>
+        <p>
+            
+            Tshwane Pretoria<br>
+            South Africa<br>
+            0087<br>
+            Programmes: CodeTribe Academy, Accelerator, App Fund<br>
+            Tel: +27 012 844 0240<br>
+            <ion-item>
+                <ion-label  >Email</ion-label>
+                <ion-input ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Your message</ion-label>
+                <ion-input type="text"></ion-input>
+           
+            </ion-item><ion-item>
+                <ion-icon ios="ios-mail" md="md-mail" (click)="send()"></ion-icon>
+
+            </ion-item>
+         
+       
+         
+        </p>
+      </ion-card-content>
+    </ion-card>
+    <ion-card class="ion-card ">
+        <img src="../../assets/imgs/social_media_verification-01.jpg" />
+        <ion-card-content>
+          <ion-card-title align="center">
+          Social Media
+          </ion-card-title>
+          <p align="center">
+            {{name}}  {{surname}}<br>
+             <a href="https://www.facebook.com/mLabSA/"> <ion-icon ios="logo-facebook" md="logo-facebook" ></ion-icon></a><a href="https://twitter.com/mlabsa" > <ion-icon ios="logo-twitter" md="logo-twitter"></ion-icon></a>  <a href="https://www.flickr.com/photos/mlabsa/" ><ion-icon ios="logo-instagram" md="logo-instagram"></ion-icon></a>
+          </p>
+        </ion-card-content>
+      </ion-card>
+   
+ 
+  
+
+</ion-content>

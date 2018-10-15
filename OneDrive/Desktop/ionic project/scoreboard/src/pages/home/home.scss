@@ -1,0 +1,30 @@
+page-home {
+
+
+    .bg-img{
+
+        background: url(../../assets/imgs/d3c36dd9a3587ef806cb7401948b159c.jpg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .btn{
+
+margin-left: 0px;
+        width: 100%;
+      
+    }
+    .container{
+        padding: 10px;
+        margin: 0;
+        box-shadow: 1px 1px 1px 1px black;
+        border-radius: 20Px;
+    }
+
+    ion-item{
+        opacity: 0.5;
+        border-radius: 20px;
+    }
+}
